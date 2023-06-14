@@ -1,11 +1,17 @@
-import React from "react";
-import "./App.css";
-import BoardNotes from "./components/BoardNotes.js";
+import './App.css';
+import AddNote from './components/addnote';
 
-export default function App() {
+
+
+function App() {
   return (
-    <div className="container">
-      <BoardNotes />
+    <div className="App">
+      <div className="container">
+      
+        <AddNote />
+      </div>
     </div>
   );
 }
+
+export default App;
